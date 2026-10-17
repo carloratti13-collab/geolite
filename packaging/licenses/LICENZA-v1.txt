@@ -1,0 +1,54 @@
+==================================================================
+ GeoLite v1 — Licenza d'uso non commerciale
+ Copyright (c) 2026 GeoLite
+==================================================================
+
+1. CONCESSIONE
+   È concesso, gratuitamente, a chiunque ottenga una copia di questo
+   software e della documentazione associata (il "Software"), il
+   diritto di usare, copiare, modificare e redistribuire il Software,
+   ESCLUSIVAMENTE per scopi non commerciali, inclusi uso personale,
+   didattico, accademico e di ricerca.
+
+2. DIVIETO DI USO COMMERCIALE
+   È vietato qualsiasi uso del Software o di opere derivate a fini
+   commerciali senza l'autorizzazione scritta preventiva del titolare
+   del copyright. Sono in particolare vietati, a titolo esemplificativo
+   e non esaustivo:
+   - vendita, noleggio, sublicenza o distribuzione a pagamento;
+   - inclusione del Software, integrale o modificato, in prodotti o
+     servizi commerciali;
+   - hosting, "software as a service" o fornitura a terzi in forma
+     onerosa;
+   - qualsiasi uso diretto o indiretto finalizzato al profitto.
+
+3. RIDISTRIBUZIONE
+   Le redistribuzioni non commerciali, anche parziali o modificate,
+   devono riportare integralmente questa licenza, l'avviso di
+   copyright e i crediti delle terze parti contenuti nel file
+   CREDITS-TERZE-PARTI.txt.
+
+4. COMPONENTI DI TERZE PARTI E DATI
+   Le librerie incluse o referenziate (Streamlit, Three.js, Pillow,
+   pandas, requests e altre) e i dati di terze parti (USGS, NASA,
+   Open-Meteo, OpenStreetMap, Wikimedia Commons e altri) restano
+   disciplinati dalle rispettive licenze, qui riassunte nel file
+   CREDITS-TERZE-PARTI.txt. Questa licenza non modifica in alcun modo
+   le licenze delle componenti di terze parti.
+
+5. SERVIZI ESTERNI
+   La funzione di chat utilizza servizi di intelligenza artificiale
+   esterni (per esempio Groq, OpenAI o compatibili) tramite chiave API
+   personale dell'utente, secondo i termini di servizio del provider
+   scelto. Il presente Software non include né ridistribuisce modelli
+   AI né chiavi API.
+
+6. GARANZIA
+   IL SOFTWARE VIENE FORNITO "COSÌ COM'È", SENZA GARANZIE DI ALCUN
+   TIPO, ESPRESSE O IMPLICITE, INCLUSE, A TITOLO ESEMPLIFICATIVO, LE
+   GARANZIE DI COMMERCIABILITÀ, IDONEITÀ A UNO SCOPO PARTICOLARE E
+   NON VIOLAZIONE DI DIRITTI DI TERZI. IN NESSUN CASO L'AUTORE SARÀ
+   RESPONSABILE PER DANNI DIRETTI, INDIRETTI, INCIDENTALI, SPECIALI,
+   ESEMPLARI O CONSEQUENZIALI DERIVANTI DALL'USO DEL SOFTWARE.
+
+==================================================================

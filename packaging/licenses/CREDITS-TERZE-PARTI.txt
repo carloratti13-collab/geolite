@@ -1,0 +1,63 @@
+==================================================================
+ CREDITS E LICENZE DI TERZE PARTI — Progetto GeoLite
+ (valido per GeoLite v0.1 e GeoLite v1)
+==================================================================
+
+SOFTWARE / LIBRERIE
+-------------------
+- Streamlit — Apache License 2.0 © Streamlit Inc.
+  https://streamlit.io
+- streamlit-component-lib — Apache License 2.0 © Streamlit Inc.
+- pandas — BSD 3-Clause License
+- requests — Apache License 2.0
+- Pillow — HPND (MIT-equivalente)
+- folium — MIT License
+- streamlit-folium — MIT License
+- transformers — Apache License 2.0 (Hugging Face)
+- accelerate — Apache License 2.0
+- PyTorch — BSD 3-Clause License © PyTorch contributors
+- Three.js (r160/r161, file vendored three.module.js e OrbitControls.js)
+  — MIT License © Three.js Authors
+- Qwen2.5-Coder-0.5B-Instruct (scaricato da Hugging Face, solo v0.1)
+  — Apache License 2.0 © Alibaba Cloud
+- pytest — MIT License (solo sviluppo/test)
+- Dipendenze transitive principali: numpy (BSD-3), branca (MIT),
+  Jinja2 (BSD-3), xyzservices (BSD-3), Altair (BSD-3), pydeck
+  (Apache-2.0), Tornado (Apache-2.0), urllib3 (MIT), certifi (MPL-2.0),
+  pyarrow (Apache-2.0), huggingface-hub/safetensors/tokenizers
+  (Apache-2.0).
+
+DATI, API E MAPPE
+-----------------
+- USGS Earthquake Hazards Program (feed sismico)
+  — dati di dominio pubblico (governo USA); credito: USGS.
+  https://earthquake.usgs.gov
+- NASA EONET (catalogo eventi vulcanici)
+  — open API; credito: NASA EONET. https://eonet.gsfc.nasa.gov
+- NASA GIBS / Worldview (texture climatiche, solo v1)
+  — libero riuso con credito "Image courtesy NASA GIBS";
+  dati sottostanti Blue Marble, GHRSST MUR, OSCAR, MERRA-2.
+  https://nasa-gibs.github.io
+- Open-Meteo (dati climatici) — Creative Commons BY 4.0.
+  Attribuzione richiesta: "Weather data by Open-Meteo.com".
+  https://open-meteo.com
+- OpenStreetMap (tiles delle mappe) — dati © OpenStreetMap
+  contributors sotto licenza ODbL; l'attribuzione è mostrata
+  automaticamente nelle mappe. https://www.openstreetmap.org
+- Wikimedia Commons (immagini dei minerali) — ogni immagine è
+  pubblicata sotto una licenza specifica (tipicamente CC BY-SA o
+  simili); vedere la pagina del singolo file per autore e licenza.
+  https://commons.wikimedia.org
+- Natural Earth (confini dei paesi, solo v0.1) — pubblico dominio.
+- Font Nunito (solo v0.1) — SIL Open Font License 1.1.
+
+NOTE
+----
+- I pesi del modello Qwen (solo v0.1) sono scaricati al primo uso da
+  Hugging Face e restano sotto la loro licenza Apache-2.0.
+- La chat AI di v1 usa un servizio esterno (Groq/OpenAI compatibile)
+  con la chiave API personale dell'utente: nessun modello o chiave è
+  incluso nel software.
+- Questo file riepiloga le licenze per comodità; fa fede il testo
+  ufficiale di ciascuna licenza.
+==================================================================

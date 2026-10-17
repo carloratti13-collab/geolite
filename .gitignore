@@ -1,0 +1,8 @@
+.venv/
+releases/
+dist/
+*.mov
+*.zip
+*.dmg
+__pycache__/
+.DS_Store

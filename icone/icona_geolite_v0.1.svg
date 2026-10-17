@@ -1,0 +1,92 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Sfondo squircle in stile macOS -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A5568"/>
+      <stop offset="100%" stop-color="#2D3748"/>
+    </linearGradient>
+
+    <!-- Gradiente strati di roccia -->
+    <linearGradient id="layer1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F6AD55"/>
+      <stop offset="100%" stop-color="#DD6B20"/>
+    </linearGradient>
+    <linearGradient id="layer2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FC8181"/>
+      <stop offset="100%" stop-color="#C53030"/>
+    </linearGradient>
+    <linearGradient id="layer3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B794F4"/>
+      <stop offset="100%" stop-color="#6B46C1"/>
+    </linearGradient>
+    <linearGradient id="layer4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#63B3ED"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+
+    <!-- Gradiente montagna -->
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#718096"/>
+      <stop offset="100%" stop-color="#4A5568"/>
+    </linearGradient>
+
+    <!-- Ombra morbida -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+
+    <!-- Highlight superiore -->
+    <linearGradient id="topHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Ombra del badge -->
+    <filter id="badgeShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Sfondo squircle (proporzioni standard icona macOS) -->
+  <rect x="72" y="72" width="880" height="880" rx="198" ry="198" fill="url(#bgGradient)"/>
+  <rect x="72" y="72" width="880" height="880" rx="198" ry="198" fill="url(#topHighlight)"/>
+
+  <!-- Gruppo principale con leggero margine di sicurezza -->
+  <g filter="url(#softShadow)">
+
+    <!-- Montagna di sfondo (sinistra, più piccola, dietro) -->
+    <path d="M 260 620 L 380 420 L 460 560 L 340 620 Z" fill="url(#mountainGradient)" opacity="0.7"/>
+
+    <!-- Montagna principale -->
+    <path d="M 380 640 L 512 340 L 660 640 Z" fill="url(#mountainGradient)"/>
+
+    <!-- Punta innevata -->
+    <path d="M 512 340 L 470 430 L 512 415 L 554 430 Z" fill="#EDF2F7"/>
+
+  </g>
+
+  <!-- Base geologica: strati sedimentari stratificati -->
+  <g>
+    <!-- Strato 4 (più profondo, in basso) -->
+    <path d="M 220 880 L 220 820 Q 512 780 804 820 L 804 880 Z" fill="url(#layer4)"/>
+
+    <!-- Strato 3 -->
+    <path d="M 220 820 L 220 760 Q 512 722 804 760 L 804 820 Q 512 780 220 820 Z" fill="url(#layer3)"/>
+
+    <!-- Strato 2 -->
+    <path d="M 220 760 L 220 700 Q 512 664 804 700 L 804 760 Q 512 722 220 760 Z" fill="url(#layer2)"/>
+
+    <!-- Strato 1 (superficie) -->
+    <path d="M 220 700 L 220 650 Q 512 616 804 650 L 804 700 Q 512 664 220 700 Z" fill="url(#layer1)"/>
+  </g>
+
+  <!-- Badge versione (in basso a destra) -->
+  <g filter="url(#badgeShadow)">
+    <rect x="656" y="806" width="230" height="92" rx="46" ry="46" fill="#8E8E93" fill-opacity="0.95" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="4"/>
+    <text x="771" y="868" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">v0.1</text>
+  </g>
+
+  <!-- Sottile bordo di rifinitura sull'icona -->
+  <rect x="72.5" y="72.5" width="879" height="879" rx="197.5" ry="197.5" fill="none" stroke="#000000" stroke-opacity="0.08" stroke-width="1"/>
+
+</svg>
