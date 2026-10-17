@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
+data/geobrain_users.sqlite3
+data/geobrain_users.sqlite3-shm
+data/geobrain_users.sqlite3-wal
+*.py[cod]
