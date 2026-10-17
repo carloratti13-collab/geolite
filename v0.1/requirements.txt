@@ -1,8 +1,0 @@
-streamlit>=1.38,<2
-pandas>=2.2,<3
-requests>=2.32,<3
-transformers>=5,<6
-torch>=2.2
-accelerate>=0.30
-folium>=0.17,<1
-streamlit-folium>=0.23,<1
