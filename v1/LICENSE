@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 GeoLite v1 — License
+=======
+GeoLite v1 — Non-Commercial License
+>>>>>>> fa68195 (Add licenses)
 
 Copyright (c) 2026 Carlo Ratti
 
@@ -7,6 +11,7 @@ of this software, to use, copy, modify, and distribute the Software,
 subject to the following conditions:
 
 1. NON-COMMERCIAL USE ONLY
+<<<<<<< HEAD
    This software may be used, modified, and shared exclusively for
    non-commercial purposes. Any use for profit, business, or paid services
    is strictly prohibited without prior written authorization from the
@@ -20,3 +25,13 @@ subject to the following conditions:
    This software is provided "as is", without warranty of any kind.
 
 For commercial licensing inquiries, contact the author.
+=======
+   This software may be used exclusively for non-commercial purposes.
+   Commercial use is strictly prohibited without prior written authorization.
+
+2. ATTRIBUTION
+   Redistributions must retain the above copyright notice and this license.
+
+3. NO WARRANTY
+   Provided "as is", without warranty of any kind.
+>>>>>>> fa68195 (Add licenses)
